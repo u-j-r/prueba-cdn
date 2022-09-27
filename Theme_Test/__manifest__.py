@@ -5,7 +5,7 @@
     'author': 'Your name',
     'category': 'Theme/Creative',
 
-    'depends': ['website', 'website_theme_install'],
+    'depends': ['website'],
     'data': [
     ],
 }
