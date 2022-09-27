@@ -9,4 +9,9 @@
     'data': [
          'views/assets.xml',
     ],
+    'assets': {
+         'web.assets_frontend': [          
+         'Theme_Test/static/src/scss/style.scss'
+        ]
+    }
 }
