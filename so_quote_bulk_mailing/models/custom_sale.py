@@ -8,7 +8,7 @@ class SaleOrder(models.Model):
     _description = "Sales Order"
 
 # function to view wizard    
-    @api.multi     
+   #@api.multi     
     def view_wizard(self):
         sale_ids = []
         active_ids = self.env.context.get('active_ids',[])

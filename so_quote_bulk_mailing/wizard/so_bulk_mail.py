@@ -9,7 +9,7 @@ class SaleOrderMassMail(models.TransientModel):
     sale_order_ids = fields.Many2many('sale.order',string="Sale Orders",required=True, domain=[('state', 'in', ['draft', 'sent', 'sale'])])
    
 # function to send so/quote bulk mail   
-    @api.multi
+   # @api.multi
     def send_mail(self):
         vals = self.sale_order_ids
         for order in vals:
