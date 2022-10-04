@@ -20,7 +20,7 @@
 		</field>
 	</record>
 	<record id="action_sale_mass_mail" model="ir.actions.act_window">
-		<field name="name">SO/Quotation Bulk Mail</field>
+		<field name="name">Envio masivo</field>
 		<field name="type">ir.actions.act_window</field>
 		<field name="res_model">so.quote.mail</field>
 		<field name="view_mode">form</field>

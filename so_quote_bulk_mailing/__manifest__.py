@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
-    'name': 'SO/Quotation Mass Mailing',
-    'version': '11.0',
-    'author': 'PPTS [India] Pvt.Ltd.',
+    'name': 'Envio Masivo',
+    'version': '1.0',
+    'author': 'Mit-Mut',
     'category': 'Sale',
-    'website': 'https://www.pptssolutions.com',
+    'website': 'https://www.mit-mut.com',
     'license': 'LGPL-3',
-    'support': 'business@pptservices.com',
-    'summary': 'Send SO/Quotation By Mail',
+    'support': 'info@mit-mut.com',
+    'summary': 'Envio masivo de sale order',
     'description': """
-It helps, when user select the records and by triggering the action server menu (Send SO/Quote by Mail), It opens a wizard view and by clicking the Send Mail button the selected records will receive an email.
-""",
-    'website': 'www.pptssolution.com',
+    Loren ipsum
+    """,
+    'website': 'www.mit-mut.com',
     'depends': ['base','sale','sale_management'],
     'data': [
         
